@@ -1,0 +1,16 @@
+<resources>
+    <string name="title_share_weixin">微信</string>
+    <string name="title_share_momment">朋友圈</string>
+    <string name="title_share_sina">新浪微博</string>
+    <string name="title_share_qq">QQ</string>
+    <string name="title_share_qzeon">QQ空间</string>
+    <string name="title_share_message">短信</string>
+    <string name="share_fail">分享失败</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_cancel">取消分享</string>
+
+    <string name="share_weixin_not_install">您的设备尚未安装微信</string>
+    <string name="share_weixin_not_support">您的微信版本太低，暂不支持分享</string>
+    <string name="fail_auth_sina">授权失败</string>
+    <string name="suc_auth_sina">授权成功</string>
+</resources>
