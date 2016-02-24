@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="wx_libammsdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/share/libs/wx_libammsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
