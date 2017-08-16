@@ -1,13 +1,13 @@
-#描述
+# 描述
 每个应用程序中，都可能会有分享的需求，比如分享一个商品详情页或者一些活动到微博或者微信等社交平台。
 这个 lib 将分享相关的功能模块化了，使用它你可以方便的实现自己项目的分享功能。 
 
-##效果图
+## 效果图
 ![效果图](/shot/Screenshot_2016-01-05-17-18-37_com.eallcn.rentage.png)
 
-##使用方法
+## 使用方法
 
-###1、将 share 模块拷贝至自己项目
+### 1、将 share 模块拷贝至自己项目
 
 说明一下，因为 share 中有较多的 三方 lib jar文件，再加上他们可能会更新，所以 share lib 不会发布到
 中央仓库去，这里如果要使用，直接通过最粗暴的方式将 share 模块直接拷贝至自己项目目录，然后在setting 中加入
@@ -20,7 +20,7 @@ share 模块
     compile project(':share')
 
 
-###2、在Application的onCreate方法中设置分享相关属性
+### 2、在Application的onCreate方法中设置分享相关属性
     
      @Override
         public void onCreate() {
@@ -57,7 +57,7 @@ share 模块
 share lib 默认已经提供了一个很常见的分享界面，如上面截图所示。
 如果你的项目中的分享界面样式跟这个有出入（这简直是一定的），你可以直接修改layout文件 /layout/layout_share_grideview.xml
 
-###3、使用ShareView
+### 3、使用ShareView
 
 ShareView可以在任何界面中使用。
 
@@ -105,7 +105,7 @@ ShareView可以在任何界面中使用。
         }
     }
 
-###新浪微博分享
+### 新浪微博分享
 [新浪微博文档](https://github.com/sinaweibosdk/weibo_android_sdk)
 
 1)新浪微博分享前准备工作
